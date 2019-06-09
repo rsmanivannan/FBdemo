@@ -46,7 +46,7 @@ public class Book extends AppCompatActivity {
                 int month = c.get(Calendar.MONTH);
                 int day = c.get(Calendar.DAY_OF_MONTH);
 
-                // date picker dialog
+                // date picker dialog 1
                 datePickerDialog1 = new DatePickerDialog(Book.this,
                         new DatePickerDialog.OnDateSetListener() {
 
