@@ -6,12 +6,6 @@
 # Java class files
 *.class
 
-# Generated files
-
-# Gradle files
-.gradle/
-build/
-
 # Local configuration file (sdk path, etc)
 local.properties
 
@@ -58,3 +52,4 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
+
