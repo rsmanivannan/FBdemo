@@ -22,5 +22,6 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getTargetContext();
 
         assertEquals("com.example.user.flight_booking", appContext.getPackageName());
+        // this is a changed code
     }
 }
