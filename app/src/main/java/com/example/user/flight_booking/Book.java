@@ -37,6 +37,7 @@ public class Book extends AppCompatActivity {
 
         dates = (EditText) findViewById(R.id.dateStart);
         // perform click event on edit text
+        //modified
         dates.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
