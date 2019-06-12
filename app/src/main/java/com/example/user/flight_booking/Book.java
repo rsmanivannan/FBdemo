@@ -34,7 +34,7 @@ public class Book extends AppCompatActivity {
         spinner2 = (Spinner) findViewById(R.id.spinnerDest);
 
         // initiate the date picker and a button
-        //code changed for the demo
+        //modified code for demo
 
         dates = (EditText) findViewById(R.id.dateStart);
         // perform click event on edit text
