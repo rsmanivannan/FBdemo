@@ -75,7 +75,7 @@
         android:layout_alignStart="@+id/textView4"
         android:layout_alignLeft="@+id/textView4"
         android:layout_alignBottom="@+id/dateAnd"
-        android:text="Return"
+        android:text="Return To"
         android:textSize="18sp"
         android:textStyle="normal|bold|italic" />
 
