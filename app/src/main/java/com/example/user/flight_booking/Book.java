@@ -30,13 +30,13 @@ public class Book extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
 
-        spinner1 = (Spinner) findViewById(R.id.spinnerDep);
-        spinner2 = (Spinner) findViewById(R.id.spinnerDest);
+        spinner1 = findViewById(R.id.spinnerDep);
+        spinner2 = findViewById(R.id.spinnerDest);
 
         // initiate the date picker and a button
-        //modified code for demo324
+        //modified code for demo3241
 
-        dates = (EditText) findViewById(R.id.dateStart);
+        dates = findViewById(R.id.dateStart);
         // perform click event on edit text
         //modify this code for demo
         dates.setOnClickListener(new View.OnClickListener() {
@@ -64,7 +64,7 @@ public class Book extends AppCompatActivity {
             }
         });
 
-        datea = (EditText) findViewById(R.id.dateAnd);
+        datea = findViewById(R.id.dateAnd);
         // perform click event on edit text
         datea.setOnClickListener(new View.OnClickListener() {
             @Override
